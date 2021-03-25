@@ -3,6 +3,7 @@ namespace src\controllers;
 
 use \core\Controller;
 use \src\handlers\LoginHandler;
+use \src\models\User;
 
 class HomeController extends Controller {
 
