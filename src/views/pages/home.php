@@ -1,7 +1,8 @@
+<?= $render('header'); ?>
 
-    <?php $render('header');?>
-    <section class="container main">
-    <?=$render('sidebar');?>
+
+<section class="container main">
+    <?= $render('sidebar'); ?>
         <section class="feed mt-10">
             
             <div class="row">
@@ -92,7 +93,7 @@
                             </div>
                         </div>
                         <div class="box-body">
-                            <a href=""><img src="<?=$base;?>/_MODELO/assets/media/uploads/1.jpg" /></a>
+                            <a href=""><img src="https://alunos.b7web.com.br/media/courses/php-nivel-1.jpg" /></a>
                             <a href=""><img src="https://alunos.b7web.com.br/media/courses/laravel-nivel-1.jpg" /></a>
                         </div>
                     </div>
@@ -103,6 +104,11 @@
                     </div>
                 </div>
             </div>
+
         </section>
     </section>
-    <?=$render('footer');?>
+    <?= $render('footer'); ?>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/vanillaModal.js"></script>
+</body>
+</html>
